@@ -64,7 +64,7 @@ CREATE TABLE population_and_demography (
     "population__all__80_84__records" BIGINT,
     "population__all__85_89__records" BIGINT,
     "population__all__90_94__records" BIGINT,
-    "population__all__95_99__records" FLOAT
+    "population__all__95_99__records" BIGINT
 );
 
 \copy population_and_demography FROM 'your-folder/population-and-demography.csv' WITH (FORMAT csv, HEADER true);
